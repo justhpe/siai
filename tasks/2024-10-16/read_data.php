@@ -14,7 +14,7 @@
     for($i=0; $i < $rows; $i++){
         $row = $result->fetch_array(MYSQLI_NUM);
         echo "<tr>";
-        for($j=0; $j < 2; $j++){
+        for($j=0; $j < 4; $j++){
             echo "<td>" . htmlspecialchars($row[$j]);
         }
     }
