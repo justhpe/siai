@@ -1,0 +1,29 @@
+form {
+    padding-top: 10px;
+    background-color: rgb(209, 234, 255);
+    padding: 10px;
+    width: 50%;
+    margin: auto;
+}
+
+body {
+    background-color: aliceblue;
+}
+
+input[type="submit"] {
+    padding: 10px 60px;
+    background-color: rgb(180, 255, 180);
+    border: 0px;
+}
+
+input[type="text"]:hover {
+    background-color: rgb(145, 255, 145);
+    transition: 0.5s;
+}
+
+input[type="submit"]:hover {
+    padding: 10px 60px;
+    background-color: rgb(103, 255, 103);
+    cursor: pointer;
+    transition: 0.5s;
+}
