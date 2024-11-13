@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Przykładowy formularz</title>
+        <style>
+            .singup {
+                border: 1px solid #999999;
+                font: normal 14px helvetica;
+                color: #444444;
+            }
+        </style>
+        <script>
+
+        </script>
+    </head>
+    <body>
+        <table class="singup" border="0" cellpadding="2" cellspacing="5" bgcolor="#eeeeee">
+            <th colspan="2" align="center">Formularz rejestracji</th>
+            <form action="adduser.php" method="post" onsubmit="return validate(this)">
+                <tr>
+                    <td>Imię</td>
+                    <td><input type="text" name="forename" maxlength="32"></td>
+                </tr>
+                <tr>
+                    <td>Nazwisko</td>
+                    <td><input type="text" name="surname" maxlength="32"></td>
+                </tr>
+                <tr>
+                    <td>Nazwa użytkownika</td>
+                    <td><input type="text" name="username" maxlength="32"></td>
+                </tr>
+                <tr>
+                    <td>Hasło</td>
+                    <td><input type="text" name="password" maxlength="32"></td>
+                </tr>
+                <tr>
+                    <td>Wiek</td>
+                    <td><input type="text" name="age" maxlength="3"></td>
+                </tr>
+                <tr>
+                    <td>E-mail</td>
+                    <td><input type="text" name="email" maxlength="64"></td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center"><input type="submit" value="Zarejstruj się"></td>
+                </tr>
+            </form>
+
+        </table>
+    </body>
+</html>
